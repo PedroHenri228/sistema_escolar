@@ -14,17 +14,17 @@ $result = $conn->query($sql);
                 <h4 class="mt-5">Cursos:</h4>
                 <thead>
                     <tr>
-                        <br>
-                        <th scope="col">Cursos</th>
-                        <th scope="col">Turmas</th>
-                    </tr>
-                    <tr>
                         <th scope="col">
                             <form class="d-flex" role="search" action="pesquisa_curso.php" method="post">
                                 <input class="form-control me-2" name="search" type="search" placeholder="Pesquisar Cursos..." aria-label="Search">
                                 <button class="btn btn-outline-success" type="submit">Buscar</button>
                             </form>
                         </th>
+                    </tr>
+                    <tr>
+                        <br>
+                        <th scope="col">Cursos</th>
+                        <th scope="col">Turmas</th>
                     </tr>
                 </thead>
                 <tbody>
