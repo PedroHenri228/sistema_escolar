@@ -5,10 +5,10 @@
     $password = "";
     $dbname = "escola_bd";
 
-    // Create connection
+    // Criando Configuração
     $conn = new mysqli($servername, $username, $password, $dbname);
 
-    // Check connection
+    // Conferindo a Configuração
     if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
     }
